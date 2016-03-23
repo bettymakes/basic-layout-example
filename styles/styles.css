@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  background-color: yellow;
+  margin: 0;
+}
+
+.nav-bar {
+  background-color: tomato;
+  height: 50px;
+}
+
+.nav-list {
+  margin: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  line-height: 50px;
+}
+
+.main-wrapper {
+  overflow: hidden; /* clears our floats on the sections */
+}
+
+.about, .hours, .feed {
+  float: left;
+}
+
+.about {
+  width: 50%;
+}
+
+.hours,
+.feed {
+  width: 25%;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+}
+
+.section-footer {
+  background-color: green;
+  height: 50px;
+}
+
+.copyright {
+  line-height: 50px;
+}
+
+.content-container {
+  max-width: 720px;
+  margin: auto;
+}
+
+.pikachu {
+  width: 100%;
+  display: block;
+}
